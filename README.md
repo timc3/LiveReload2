@@ -21,7 +21,9 @@ You need:
 
 Build process:
 
-1. Don't forget to pull all submodules after getting the source code.
+1. Don't forget to pull all submodules after getting the source code. (
+   git pull --recurse-submodules 
+   git submodule update --recursive )
 
 2. Run `rake prepare`.
 
